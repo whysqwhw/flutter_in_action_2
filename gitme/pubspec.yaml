@@ -40,8 +40,9 @@ dev_dependencies:
     sdk: flutter
   flutter_localizations: # Add this line
     sdk: flutter         # Add this line
-  json_model:
-    path: ../../json_model
+#  json_model:
+#    path: ../../json_model
+  json_model: ^1.0.0
   json_serializable: ^5.0.0
   intl_generator:  0.2.1
 
