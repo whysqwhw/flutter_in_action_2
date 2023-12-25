@@ -79,6 +79,9 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             ExpansionTile(
               title: const Text("第一个Flutter应用"),
+              textColor: Colors.green,
+              collapsedBackgroundColor: Colors.grey,
+              collapsedTextColor: Colors.red,
               children: _generateItem(context, [
                 Page("计数器", const CounterRoute(), withScaffold: false),
                 Page("路由传值", const RouterTestRoute()),
@@ -91,6 +94,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ExpansionTile(
               title: const Text("基础组件"),
+              textColor: Colors.green,
+              collapsedBackgroundColor: Colors.grey,
+              collapsedTextColor: Colors.red,
               children: _generateItem(context, [
                 // PageInfo("Context测试",  ContextRoute(), withScaffold: false),
                 // PageInfo("Widget树中获取State对象",  RetrieveStateRoute(), withScaffold: false),
@@ -106,6 +112,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ExpansionTile(
               title: const Text("布局类组件"),
+              textColor: Colors.green,
+              collapsedBackgroundColor: Colors.grey,
+              collapsedTextColor: Colors.red,
               children: _generateItem(context, [
                 Page(
                   "约束",
@@ -123,6 +132,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ExpansionTile(
               title: const Text("容器类组件"),
+              textColor: Colors.green,
+              collapsedBackgroundColor: Colors.grey,
+              collapsedTextColor: Colors.red,
               children: _generateItem(context, [
                 Page("填充Padding", const PaddingTestRoute()),
                 Page("DecoratedBox", const DecoratedBoxRoute()),
@@ -139,6 +151,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ExpansionTile(
               title: const Text("可滚动组件"),
+              textColor: Colors.green,
+              collapsedBackgroundColor: Colors.grey,
+              collapsedTextColor: Colors.red,
               children: _generateItem(context, [
                 Page(
                   "SingleChildScrollView",
@@ -188,6 +203,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ExpansionTile(
               title: const Text("功能性组件"),
+              textColor: Colors.green,
+              collapsedBackgroundColor: Colors.grey,
+              collapsedTextColor: Colors.red,
               children: _generateItem(context, [
                 Page("导航返回拦截", const WillPopScopeTestRoute()),
                 Page("数据共享(inheritedWidget)", const InheritedWidgetTestRoute()),
@@ -203,6 +221,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ExpansionTile(
               title: const Text("事件处理与通知"),
+              textColor: Colors.green,
+              collapsedBackgroundColor: Colors.grey,
+              collapsedTextColor: Colors.red,
               children: _generateItem(context, [
                 Page("原生指针事件", const PointerRoute(), padding: false),
                 Page("手势识别", const GestureRoute(), padding: false),
@@ -215,6 +236,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ExpansionTile(
               title: const Text("动画"),
+              textColor: Colors.green,
+              collapsedBackgroundColor: Colors.grey,
+              collapsedTextColor: Colors.red,
               children: _generateItem(context, [
                 Page("放大动画-原始版", const ScaleAnimationRoute()),
                 Page("放大动画-AnimatedWidget版", const ScaleAnimationRoute1()),
@@ -230,6 +254,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ExpansionTile(
               title: const Text("自定义组件"),
+              textColor: Colors.green,
+              collapsedBackgroundColor: Colors.grey,
+              collapsedTextColor: Colors.red,
               children: _generateItem(context, [
                 Page("GradientButton", const GradientButtonRoute()),
                 Page("Material APP", const ScaffoldRoute(), withScaffold: false),
@@ -244,6 +271,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ExpansionTile(
               title: const Text("文件与网络"),
+              textColor: Colors.green,
+              collapsedBackgroundColor: Colors.grey,
+              collapsedTextColor: Colors.red,
               children: _generateItem(context, [
                 Page("文件操作", FileOperationRoute(), withScaffold: false),
                 Page("Http请求", HttpTestRoute()),
@@ -253,6 +283,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ExpansionTile(
               title: const Text("其它"),
+              textColor: Colors.green,
+              collapsedBackgroundColor: Colors.grey,
+              collapsedTextColor: Colors.red,
               children: _generateItem(context, [
                 Page(
                   "WebView",
@@ -265,6 +298,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ExpansionTile(
               title: const Text("Flutter原理"),
+              textColor: Colors.green,
+              collapsedBackgroundColor: Colors.grey,
+              collapsedTextColor: Colors.red,
               children: _generateItem(context, [
                 Page("图片加载原理与缓存", ImageInternalTestRoute()),
                 Page("CustomCenter", const MyCenterRoute()),
@@ -280,6 +316,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
             // ExpansionTile(
             //   title: Text("包与插件"),
+            //   textColor: Colors.green,
+            //   collapsedBackgroundColor: Colors.grey,
+            //   collapsedTextColor: Colors.red,
             //   children: _generateItem(context, [
             //     PageInfo("相机",  CameraExampleHome(),
             //         withScaffold: false),
